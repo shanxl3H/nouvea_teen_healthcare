@@ -1,0 +1,79 @@
+
+body {
+    overflow-x: hidden;
+}
+
+.hero {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    background-image: url("img/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.hero .content {
+    justify-content: center;
+    margin: auto;
+}
+.hero .content h2{
+    font-family: tell_me_a_joke;
+    font-size: 180px;
+    color: #131d88; 
+}
+.hero .content h5 {
+    font-family: tell_me_a_joke;
+    font-size: 35px;
+    text-align: center;
+    color: #0c3d8d;
+}
+.hero .content h4 {
+    font-family: tell_me_a_joke;
+    font-size: 50px;
+    text-align: center;
+    color: #0c3d8d;
+}
+.tittle{
+    margin-top: 20px;
+    margin-left: 60px;
+    font-family: cursive;
+    font-size:40px;
+    font-family: "Sedan SC", serif;
+    text-align: center;
+}
+.row p {
+    font-size: 22px;
+}
+.idk{
+    font-size: 16px;
+}
+.container p{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.button{
+    float: right;
+}
+.container1{
+    margin-right: 30px;
+}
+.tip{
+    justify-content: center;
+    text-align: center;
+}
+@font-face {
+    font-family: copyduck;
+    src: url(fonts/Copyduck.ttf);
+}
+@font-face {
+    font-family: coffeecake;
+    src: url(fonts/CoffeCake.ttf);
+}
+@font-face {
+    font-family: tell_me_a_joke;
+    src: url(fonts/Tell\ Me\ A\ Joke.ttf);
+}
